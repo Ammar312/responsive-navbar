@@ -4,21 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive Navbar</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="header" id="header">
       <div class="logo" id="logo"></div>
       <nav class="nav">
-        <ul class="navBar">
-          <li>Home</li>
-          <li>About</li>
-          <li>Solutions</li>
-          <li>Contact</li>
-          <li>Contact</li>
-          <li>Contact</li>
+        <span class="navCloseBtn"><i class="bi bi-x-lg"></i></span>
+        <ul class="navBar" id="navBar">
+          <li class="li">Home</li>
+          <li class="li">About</li>
+          <li class="li">Solutions</li>
+          <li class="li">Contact</li>
+          <li class="li">Contact</li>
+          <li class="li">Contact</li>
         </ul>
       </nav>
+      <div class="hamBurger" id="hamBurger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
     </header>
     <script type="module" src="./script.js"></script>
   </body>

@@ -24,7 +24,65 @@
   align-items: center;
   font-size: 1.6rem;
 }
-.navBar li {
+.li {
   list-style-type: none;
   margin: 1em;
+}
+.hamBurger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3px;
+  display: none;
+}
+.line {
+  width: 2.5em;
+  height: 6px;
+  background: grey;
+}
+.navBarRes {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.6rem;
+  border: 1px solid black;
+}
+.navCloseBtn {
+  display: none;
+  position: absolute;
+  right: 0.5em;
+  top: 0.2em;
+  font-size: 2.2em;
+}
+@media screen and (max-width: 1100px) {
+  .navBar {
+    font-size: 1.3rem;
+  }
+  .navBar li {
+    margin: 0.6em;
+  }
+}
+@media screen and (max-width: 798px) {
+  .logo {
+    width: 6em;
+    height: 4em;
+  }
+}
+@media screen and (max-width: 750px) {
+  .navBar {
+    display: none;
+  }
+  .hamBurger {
+    display: flex;
+  }
+  .logo {
+    width: 8em;
+    height: 4em;
+  }
 }
