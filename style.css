@@ -18,12 +18,14 @@
   height: 4em;
   border: 1px solid rgb(247, 176, 24);
 }
+/* Yaha se navbar shuru horaha hai  */
 .navBar {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.6rem;
 }
+/* ye list hai navbar ki */
 .li {
   list-style-type: none;
   margin: 1em;
@@ -36,11 +38,13 @@
   gap: 3px;
   display: none;
 }
+/* hamburgers me jo divs hen */
 .line {
   width: 2.5em;
   height: 6px;
   background: grey;
 }
+/* Responsive Navbar */
 .navBarRes {
   position: absolute;
   right: 0;
@@ -64,6 +68,7 @@
   top: 0.2em;
   font-size: 2.2em;
 }
+/* Responsive NavBar ki height barane ke liye jab toogle karte hen */
 .navHeight {
   height: 300px;
 }
